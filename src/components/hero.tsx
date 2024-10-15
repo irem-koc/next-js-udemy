@@ -1,8 +1,8 @@
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 
 type Props = {
   imgAlt: string;
-  imgUrl: StaticImageData;
+  imgUrl: string;
   title: string;
 };
 

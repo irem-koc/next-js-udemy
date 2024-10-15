@@ -1,8 +1,6 @@
 import Hero from "@/components/hero";
 
-type Props = {};
-
-const page = (props: Props) => {
+const page = () => {
   return (
     <div>
       <Hero imgAlt="home" imgUrl="/performance.jpg" title="Performance" />
